@@ -50,7 +50,7 @@ a {
   line-height: 1.07;
 }
 .border-button {
-  background: var(--iris, #4d5ae5);
+  background-color: var(--iris, #4d5ae5);
   cursor: pointer;
   color: var(--white, #fff);
 }
@@ -76,7 +76,7 @@ a {
 }
 
 .team-container {
-  background: var(--cloud, #f4f4fd);
+  background-color: var(--cloud, #f4f4fd);
 }
 .advantages-title,
 .team-title,
@@ -88,7 +88,7 @@ a {
   line-height: 1.11;
 }
 footer {
-  background: var(--navyblue, #2e2f42);
+  background-color: var(--navyblue, #2e2f42);
 }
 .adves-text {
   color: var(--cloud, #f4f4fd);
