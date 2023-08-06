@@ -11,8 +11,8 @@ a {
   text-decoration: none;
 }
 .logo {
-  color: var(--navyblue, #2e2f42);
-  font-family: Raleway;
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -20,7 +20,7 @@ a {
   text-transform: uppercase;
 }
 .logo .logo-style {
-  color: var(--iris, #4d5ae5);
+    color: var(--navyblue, #2e2f42);
 }
 .nav-list .nav-link {
   font-weight: 500;
@@ -30,9 +30,11 @@ a {
 .nav-list .nav-link:focus {
   color: var(--ocean, #404bbf);
 }
+.address-container{
+    font-style: normal;
+}
 .address-container .address-link {
   color: var(--slate, #434455);
-  font-style: normal;
   line-height: 1.5;
 }
 .address-container .address-link:hover,
@@ -48,13 +50,18 @@ a {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 .border-button {
   background-color: var(--iris, #4d5ae5);
   cursor: pointer;
   color: var(--white, #fff);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
-.border-button:active {
+.border-button:hover,
+.border-button:focus {
   background-color: var(--ocean, #404bbf);
 }
 .advantages-item-title,
@@ -64,6 +71,7 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em
 }
 .advantages-text,
 .team-item-text,
@@ -86,14 +94,16 @@ a {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
-footer {
+.adves-container {
   background-color: var(--navyblue, #2e2f42);
 }
 .adves-text {
   color: var(--cloud, #f4f4fd);
   line-height: 1.5;
 }
-footer .logo {
+.adves-container .logo-style {
   color: var(--cloud, #f4f4fd);
 }
