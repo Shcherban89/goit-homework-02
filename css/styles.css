@@ -20,7 +20,7 @@ a {
   text-transform: uppercase;
 }
 .logo .logo-style {
-    color: var(--navyblue, #2e2f42);
+  color: var(--navyblue, #2e2f42);
 }
 .nav-list .nav-link {
   font-weight: 500;
@@ -30,8 +30,8 @@ a {
 .nav-list .nav-link:focus {
   color: var(--ocean, #404bbf);
 }
-.address-container{
-    font-style: normal;
+.address-container {
+  font-style: normal;
 }
 .address-container .address-link {
   color: var(--slate, #434455);
@@ -71,7 +71,7 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 .advantages-text,
 .team-item-text,
