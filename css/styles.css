@@ -64,10 +64,14 @@ a {
 .border-button:focus {
   background-color: var(--ocean, #404bbf);
 }
+.advantages-item,
+.team-item,
+.portfolio-item {
+  color: var(--navyblue, #2e2f42);
+}
 .advantages-item-title,
 .team-item-title,
 .portfolio-item-title {
-  color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -82,20 +86,21 @@ a {
 .team-item-text {
   text-align: center;
 }
-
 .team-container {
   background-color: var(--cloud, #f4f4fd);
 }
 .advantages-title,
 .team-title,
 .portfolio-cont-title {
-  color: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+.team-item {
+  background: var(--white, #fff);
 }
 .adves-container {
   background-color: var(--navyblue, #2e2f42);
