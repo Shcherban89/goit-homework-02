@@ -72,6 +72,7 @@ a {
 .advantages-item-title,
 .team-item-title,
 .portfolio-item-title {
+  color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -81,6 +82,7 @@ a {
 .team-item-text,
 .portfolio-item-text {
   line-height: 1.5;
+  color: #434455;
 }
 .team-item-title,
 .team-item-text {
@@ -92,6 +94,7 @@ a {
 .advantages-title,
 .team-title,
 .portfolio-cont-title {
+  color: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
