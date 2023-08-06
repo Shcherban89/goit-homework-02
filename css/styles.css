@@ -1,0 +1,99 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  color: var(--navyblue, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo .logo-style {
+  color: var(--iris, #4d5ae5);
+}
+.nav-list .nav-link {
+  font-weight: 500;
+  line-height: 1.5;
+}
+.nav-list .nav-link:hover,
+.nav-list .nav-link:focus {
+  color: var(--ocean, #404bbf);
+}
+.address-container .address-link {
+  color: var(--slate, #434455);
+  font-style: normal;
+  line-height: 1.5;
+}
+.address-container .address-link:hover,
+.address-container .address-link:focus {
+  color: var(--ocean, #404bbf);
+}
+.order-container {
+  background-color: var(--navyblue, #2e2f42);
+}
+.order-title {
+  color: var(--white, #fff);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+}
+.border-button {
+  background: var(--iris, #4d5ae5);
+  cursor: pointer;
+  color: var(--white, #fff);
+}
+.border-button:active {
+  background-color: var(--ocean, #404bbf);
+}
+.advantages-item-title,
+.team-item-title,
+.portfolio-item-title {
+  color: var(--navyblue, #2e2f42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.advantages-text,
+.team-item-text,
+.portfolio-item-text {
+  line-height: 1.5;
+}
+.team-item-title,
+.team-item-text {
+  text-align: center;
+}
+
+.team-container {
+  background: var(--cloud, #f4f4fd);
+}
+.advantages-title,
+.team-title,
+.portfolio-cont-title {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+}
+footer {
+  background: var(--navyblue, #2e2f42);
+}
+.adves-text {
+  color: var(--cloud, #f4f4fd);
+  line-height: 1.5;
+}
+footer .logo {
+  color: var(--cloud, #f4f4fd);
+}
